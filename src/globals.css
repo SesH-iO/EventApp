@@ -68,9 +68,9 @@
  
 @layer base {
   * {
-    @apply YESborder-border;
+    @apply border-border;
   }
   body {
-    @apply YESbg-background YEStext-foreground;
+    @apply bg-background text-foreground;
   }
 }
