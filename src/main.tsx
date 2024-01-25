@@ -1,5 +1,8 @@
-import React from "react";
 import ReactDOM from "react-dom/client";
+
+// ROUTER PROVIDER
+import {BrowserRouter} from "react-router-dom";
+
 import App from "./App.tsx";
 
 /**
@@ -7,7 +10,7 @@ import App from "./App.tsx";
  * So we add "!" so the TS doesn't complain
  */
 ReactDOM.createRoot(document.getElementById("root")!).render(
-	<React.StrictMode>
+	<BrowserRouter>
 		<App />
-	</React.StrictMode>
+	</BrowserRouter>
 );
