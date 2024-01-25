@@ -8,7 +8,7 @@
     "css": "src/globals.css",
     "baseColor": "slate",
     "cssVariables": true,
-    "prefix": "YES"
+    "prefix": ""
   },
   "aliases": {
     "components": "@/components",
